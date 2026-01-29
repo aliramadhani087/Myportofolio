@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Muhammad Ali Ramadhani</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav id="main-nav" class="fixed w-full bg-white/80 backdrop-blur-md shadow-sm z-50 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full overflow-hidden shadow-sm">
+                    <img src="assets/img/Logo.jpeg" alt="Logo" class="w-full h-full object-cover">
+                </div>
+                <a href="#" class="text-2xl font-bold text-black-600 tracking-tight">MyPortfolio</a>
+            </div>
+
+            <div class="hidden md:flex space-x-6 font-medium">
+                <a href="#home" class="nav-link hover:text-blue-600">Home</a>
+                <a href="#about" class="nav-link hover:text-blue-600">About</a>
+                <a href="#skills" class="nav-link hover:text-blue-600">Skills</a>
+                <a href="#education" class="nav-link hover:text-blue-600">Education</a>
+                <a href="#certification" class="nav-link hover:text-blue-600">Certification</a>
+                <a href="#contact" class="nav-link hover:text-blue-600">Contact</a>
+            </div>
+            <a href="assets/img/CV Ats.jpg" target="_blank" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition-all transform hover:scale-105 text-sm flex items-center">
+             View CV <i class="fas fa-eye ml-2"></i>
+            </a>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-40 pb-20 px-4 visible">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h2 class="text-gray-600 font-semibold tracking-wide uppercase mb-2">Hello, Welcome to my portfolio</h2>
+                <h1 class="text-5xl md:text-6xl font-bold mb-6">I'm <span class="text-black-600">Muhammad Ali Ramadhani</span></h1>
+                <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                    I'm a web developer and designer based in Indonesia.
+                </p>
+            </div>
+            <div class="md:w-1/3">
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-blue-100 rounded-full blur-2xl opacity-70"></div>
+                    <img src="assets/img/foto-diri.jpeg" alt="Foto Diri" class="relative rounded-2xl shadow-2xl border-4 border-white w-full object-cover aspect-[3/4]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8 text-black-600">About Me</h2>
+            <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                I am a Diploma 3 (D3) graduate from Bina Sarana University's Informatics Tegal Campus, majoring in Information Systems. I have a strong desire to learn and am able to work well in a team. Skilled in Microsoft Office, Canva, Laravel, and Python.
+            </p>
+            
+    <div class="flex w-[200%] animate-scroll">
+    <div class="flex justify-around w-full items-center">
+        <img src="assets/img/Logo IAII.png" alt="Logo IAII" class="h-12 w-auto object-contain">
+        <img src="assets/img/Logo Cakap.png" alt="Logo Cakap" class="h-12 w-auto object-contain">
+        <img src="assets/img/Logo Jidoka.png" alt="Logo Jidoka" class="h-12 w-auto object-contain">
+        <img src="assets/img/Logo IBM.png" alt="Logo IBM" class="h-12 w-auto object-contain">
+        <img src="assets/img/Logo Dicoding.jpg" alt="Logo Dicoding" class="h-12 w-auto rounded-md object-contain">
+    </div>
+
+    <div class="flex justify-around w-full items-center">
+        <img src="assets/img/Logo IAII.png" alt="Logo IAII" class="h-12 w-auto object-contain">
+        <img src="assets/img/Logo Cakap.png" alt="Logo Cakap" class="h-12 w-auto object-contain">
+        <img src="assets/img/Logo Jidoka.png" alt="Logo Jidoka" class="h-12 w-auto object-contain">
+        <img src="assets/img/Logo IBM.png" alt="Logo IBM" class="h-12 w-auto object-contain">
+        <img src="assets/img/Logo Dicoding.jpg" alt="Logo Dicoding" class="h-12 w-auto rounded-md object-contain">
+    </div>
+</div>
+
+<style>
+    /* Definisi Animasi Geser Kiri */
+    @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }
+
+    .animate-scroll {
+        /* Geser selama 10 detik, linear, berulang selamanya */
+        animation: scroll 15s linear infinite;
+    }
+
+    /* Opsional: Berhenti saat kursor diarahkan ke logo */
+    .animate-scroll:hover {
+        animation-play-state: paused;
+    }
+</style>
+<section id="skills" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center text-black-600">Technical Skills</h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                
+                <div>
+                    <h3 class="text-2xl font-bold mb-8 text-gray-800 flex items-center gap-3">
+                        <i class="fas fa-tools text-blue-600"></i> Hard Skills
+                    </h3>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
+                        <div class="flex flex-col items-center p-4 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all">
+                            <i class="fa-brands fa-html5 text-orange-600 text-4xl mb-3"></i>
+                            <span class="font-bold text-gray-700 text-xs">HTML</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all">
+                            <i class="fa-brands fa-css3-alt text-blue-600 text-4xl mb-3"></i>
+                            <span class="font-bold text-gray-700 text-xs">CSS</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all">
+                            <i class="fa-brands fa-js text-yellow-400 text-4xl mb-3"></i>
+                            <span class="font-bold text-gray-700 text-xs">JavaScript</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all">
+                            <i class="fa-brands fa-python text-blue-500 text-4xl mb-3"></i>
+                            <span class="font-bold text-gray-700 text-xs">Python</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all">
+                            <i class="fa-brands fa-laravel text-red-600 text-4xl mb-3"></i>
+                            <span class="font-bold text-gray-700 text-xs">Laravel</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all">
+                            <div class="w-10 h-10 mb-3 rounded-lg overflow-hidden flex items-center justify-center bg-gradient-to-br from-[#00c4cc] via-[#7d2ae8] to-[#ff66c4]">
+                                <svg viewBox="0 0 24 24" class="w-6 h-6 fill-white" xmlns="http://www.w3.org/2000/svg"><path d="M12.915 15.192c-.34.033-.674.053-1.002.053-2.674 0-4.634-1.637-4.634-4.21 0-2.316 1.638-4.148 4.098-4.148.887 0 1.625.26 2.146.685.107.087.27.083.375-.015l1.01-1.02a.256.256 0 0 0 .015-.353 4.887 4.887 0 0 0-3.565-1.442c-3.792 0-6.49 2.766-6.49 6.293 0 3.793 2.87 6.43 6.945 6.43.834 0 1.666-.11 2.455-.325a.263.263 0 0 0 .182-.293l-.225-1.464a.263.263 0 0 0-.31-.21z"/></svg>
+                            </div>
+                            <span class="font-bold text-gray-700 text-xs">Canva</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23" class="w-10 h-10 mb-3">
+                                <path fill="#f35325" d="M1 1h10v10H1z"/><path fill="#81bc06" d="M12 1h10v10H12z"/><path fill="#05a6f0" d="M1 12h10v10H1z"/><path fill="#ffba08" d="M12 12h10v10H12z"/>
+                            </svg>
+                            <span class="font-bold text-gray-700 text-xs">Microsoft 365</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold mb-8 text-gray-800 flex items-center gap-3">
+                        <i class="fas fa-heart text-red-500"></i> Soft Skills
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="flex items-center gap-4 p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center"><i class="fas fa-users"></i></div>
+                            <span class="font-semibold text-gray-700">Teamwork</span>
+                        </div>
+                        <div class="flex items-center gap-4 p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-10 h-10 bg-green-100 text-green-600 rounded-lg flex items-center justify-center"><i class="fas fa-comments"></i></div>
+                            <span class="font-semibold text-gray-700">Communication</span>
+                        </div>
+                        <div class="flex items-center gap-4 p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-10 h-10 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center"><i class="fas fa-tasks"></i></div>
+                            <span class="font-semibold text-gray-700">Management</span>
+                        </div>
+                        <div class="flex items-center gap-4 p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-10 h-10 bg-yellow-100 text-yellow-600 rounded-lg flex items-center justify-center"><i class="fas fa-lightbulb"></i></div>
+                            <span class="font-semibold text-gray-700">Problem Solving</span>
+                        </div>
+                        <div class="flex items-center gap-4 p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-10 h-10 bg-teal-100 text-teal-600 rounded-lg flex items-center justify-center"><i class="fas fa-sync-alt"></i></div>
+                            <span class="font-semibold text-gray-700">Adaptable</span>
+                        </div>
+                        <div class="flex items-center gap-4 p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-10 h-10 bg-red-100 text-red-600 rounded-lg flex items-center justify-center"><i class="fas fa-hand-holding-heart"></i></div>
+                            <span class="font-semibold text-gray-700">Honest</span>
+                        </div>
+                        <div class="flex items-center gap-4 p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
+                            <div class="w-10 h-10 bg-orange-100 text-orange-600 rounded-lg flex items-center justify-center"><i class="fas fa-search"></i></div>
+                            <span class="font-semibold text-gray-700">Careful</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center text-black-600">Education</h2>
+            <div class="space-y-8">
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-gray-100 flex flex-col md:flex-row items-center gap-6 hover:shadow-lg transition">
+                    <img src="assets/img/logo-smk.png" alt="Logo SMK" class="w-24 h-24 object-contain">
+                    <div class="text-center md:text-left">
+                        <h3 class="font-bold text-2xl">SMK Nurul Islam Larangan</h3>
+                        <p class="text-blue-600 font-semibold">Audio Video Techniques | Average: 85.83</p>
+                        <p class="text-gray-500 text-sm">2019 - 2022</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-gray-100 flex flex-col md:flex-row items-center gap-6 hover:shadow-lg transition">
+                    <img src="assets/img/logo-ubsi.png" alt="Logo UBSI" class="w-24 h-24 object-contain">
+                    <div class="text-center md:text-left">
+                        <h3 class="font-bold text-2xl">Universitas Bina Sarana Informatika</h3>
+                        <p class="text-blue-600 font-semibold">Information Systems | IPK 3.52</p>
+                        <p class="text-gray-500 text-sm">2022 - 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certification" class="py-20 px-4 bg-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-12 text-black-600">Certification</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <img src="assets/img/cert-python.jpg" class="rounded-xl shadow-lg border hover:scale-105 transition">
+                <img src="assets/img/cert-odoo.jpg" class="rounded-xl shadow-lg border hover:scale-105 transition">
+                <img src="assets/img/cert-excel.jpg" class="rounded-xl shadow-lg border hover:scale-105 transition">
+                <img src="assets/img/cert-microsoft 365.jpg" class="rounded-xl shadow-lg border hover:scale-105 transition">
+                <img src="assets/img/cert-dicoding.jpg" class="rounded-xl shadow-lg border hover:scale-105 transition">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-white text-black">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-8">Let's Work Together!</h2>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="mailto:aliramadhani087@gmail.com" class="bg-white text-blue-600 border border-gray-200 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition shadow-lg flex items-center gap-2">
+                <i class="fas fa-envelope"></i> Email
+            </a>
+
+            <a href="https://github.com/aliramadhani087" target="_blank" class="bg-[#333] text-white px-6 py-3 rounded-lg font-bold hover:brightness-110 transition shadow-lg flex items-center gap-2">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+
+            <a href="https://wa.me/6281990004875" target="_blank" class="bg-[#25D366] text-white px-6 py-3 rounded-lg font-bold hover:brightness-110 transition shadow-lg flex items-center gap-2">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+
+            <a href="https://instagram.com/_aliramadhani" target="_blank" class="bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white px-6 py-3 rounded-lg font-bold hover:brightness-110 transition shadow-lg flex items-center gap-2">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </div>
+    </div>
+</section>
+
+    <footer class="py-10 text-center text-black-500 text-sm">
+        <p>&copy; 2026 | MyPortfolio</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
